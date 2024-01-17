@@ -1,0 +1,48 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0 100px;
+  
+    
+    }
+  
+    .fat{
+        color: orange;
+    }
+    nav>ul{
+        display: flex;
+        align-items: center;
+    }
+    nav li{
+        list-style: none;
+        margin-right: 50px;
+        
+    } 
+    nav a{
+        text-decoration: none;
+    }
+    .roho{
+        background-color: orange;
+        border-radius: 5px;
+        border: 0px;
+        font-style: normal;
+        font-weight: 700px;
+        color: white;
+        padding: 15px 35px;
+    }
+    .hi{
+        margin-left: 50px;
+    }
+    .ma{
+        margin-left: 30px;
+    }
+    /* header related style */
+    .header{
+        margin-left: 50px;
+        background-color: aliceblue;
+    }
+.banner{
+  
+}

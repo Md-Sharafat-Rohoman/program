@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Manrope:wght@400;500;700;800&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <div class="bg-[#F9F6E2] flex justify-center items-center gap-10 px-50 scroll-py-15">
+            <div class="gap-10">
+                <h5 class="text-3xl text-black font-sans text-center font-medium leading-3 ">---SALE FEVER---</h5>
+                <h3 class="text-[#111] text-center font-sans text-6xl font-bold pt-5 pb-5">Purchase TK 200 or <br>
+                    above & get <span class="text-[#E527B2] "> 20% off</span></h3>
+                <div class="flex justify-center text-center items-center  gap-5">
+                    <p class=" text-[#111]  font-sans font-medium">Use Promo Code</p>
+                    <button
+                        class=" text-[#FFF]  font-sans text-xl font-medium bg-[#E527B2] rounded-md px-3 py-2 ">SELL200</button>
+                </div>
+            </div>
+            <div class="w-[600px] h-[600px]">
+                <img src="images/Summer 1.png" alt="">
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="bg-gray-300 ">
+            <h4 class="text-[#111] font-sans text-4xl font-semibold ">Kitchenware</h4>
+            <div class="flex justify-center gap-10 flex-col lg:flex-row">
+                <div>
+                    <div class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 ">
+                        <!-- first card -->
+                        <div class="card w-80 h-96 bg-base-100 shadow-xl p-5" onclick="calculateTriangleArea()">
+                            <figure class="px-10 pt-10 bg-gray-200">
+                                <img src="/images/prod1.png" alt="Shoes" class="rounded-md p-3" />
+                            </figure>
+
+                            <div class="card-body items-center text-center">
+                                <div class="rating">
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                        checked />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                </div>
+                                <div class="rating">
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                        checked />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                </div>
+                                <h2 class="card-title text-[#111] font-sans text-2xl font-semibold">K. Accessories</h2>
+                                <!-- <button class="text-[#11111180] bg-gray-400 px-3 py-2 rounded-xl font-sans text-xl font-bold"><span
+                                        id="calculation">0</span>.00 TK</button> -->
+                                <p id="taka-taka" class="font-sans text-2xl font-normal text-[#11111180] ">price : <span
+                                        id="tamim">39</span>.00 TK</p>
+
+
+                            </div>
+                        </div>
+                        <!-- second card -->
+                        <div class="card w-80 h-96 bg-base-100 shadow-xl p-5" onclick="calculateTriangleArea()">
+                            <figure class="px-10 pt-10 bg-gray-200">
+                                <img src="/images/prod1.png" alt="Shoes" class="rounded-md p-3" />
+                            </figure>
+
+                            <div class="card-body items-center text-center">
+                                <div class="rating">
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                        checked />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                </div>
+                                <div class="rating">
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                        checked />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                </div>
+                                <h2 class="card-title text-[#111] font-sans text-2xl font-semibold">K. Accessories</h2>
+                                <!-- <button class="text-[#11111180] bg-gray-400 px-3 py-2 rounded-xl font-sans text-xl font-bold"><span
+                                        id="calculation">0</span>.00 TK</button> -->
+                                <p id="taka-taka" class="font-sans text-2xl font-normal text-[#11111180] ">price : <span
+                                        id="tamim">39</span>.00 TK</p>
+
+
+                            </div>
+                        </div>
+
+                        <!-- third card -->
+                        <div class="card w-80 h-96 bg-base-100 shadow-xl p-5" onclick="calculateTriangleArea()">
+                            <figure class="px-10 pt-10 bg-gray-200">
+                                <img src="/images/prod1.png" alt="Shoes" class="rounded-md p-3" />
+                            </figure>
+
+                            <div class="card-body items-center text-center">
+                                <div class="rating">
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                        checked />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                </div>
+                                <div class="rating">
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                        checked />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                </div>
+                                <h2 class="card-title text-[#111] font-sans text-2xl font-semibold">K. Accessories</h2>
+                                <!-- <button class="text-[#11111180] bg-gray-400 px-3 py-2 rounded-xl font-sans text-xl font-bold"><span
+                                        id="calculation">0</span>.00 TK</button> -->
+                                <p id="taka-taka" class="font-sans text-2xl font-normal text-[#11111180] ">price : <span
+                                        id="tamim">39</span>.00 TK</p>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 ">
+                            <!-- first card -->
+                            <div class="card w-80 h-96 bg-base-100 shadow-xl p-5" onclick="calculateTriangleArea()">
+                                <figure class="px-10 pt-10 bg-gray-200">
+                                    <img src="/images/prod1.png" alt="Shoes" class="rounded-md p-3" />
+                                </figure>
+
+                                <div class="card-body items-center text-center">
+                                    <div class="rating">
+                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                            checked />
+                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    </div>
+                                    <h2 class="card-title text-[#111] font-sans text-2xl font-semibold">K. Accessories
+                                    </h2>
+                                    <!-- <button class="text-[#11111180] bg-gray-400 px-3 py-2 rounded-xl font-sans text-xl font-bold"><span
+                                            id="calculation">0</span>.00 TK</button> -->
+                                    <p class="font-sans text-2xl font-normal text-[#11111180] "
+                                        onclick="takaTaka(this)"> 39.00
+                                        TK</p>
+
+
+                                </div>
+                            </div>
+                            <div class="card w-80 h-96 bg-base-100 shadow-xl p-5" onclick="calculateTriangleArea()">
+                                <figure class="px-10 pt-10 bg-gray-200">
+                                    <img src="/images/prod1.png" alt="Shoes" class="rounded-md p-3" />
+                                </figure>
+
+                                <div class="card-body items-center text-center">
+                                    <div class="rating">
+                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                            checked />
+                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    </div>
+                                    <h2 class="card-title text-[#111] font-sans text-2xl font-semibold">K. Accessories
+                                    </h2>
+                                    <!-- <button class="text-[#11111180] bg-gray-400 px-3 py-2 rounded-xl font-sans text-xl font-bold"><span
+                                            id="calculation">0</span>.00 TK</button> -->
+                                    <p><input id="baker" type="text" class="border text-xl bg-gray-200 w-20 px-2"
+                                            placeholder="price"><span class="ml-2">tk</span></p>
+
+
+
+                                </div>
+                            </div>
+                            <div class="card w-80 h-96 bg-base-100 shadow-xl p-5" onclick="calculateTriangleArea()">
+                                <figure class="px-10 pt-10 bg-gray-200">
+                                    <img src="/images/prod1.png" alt="Shoes" class="rounded-md p-3" />
+                                </figure>
+
+                                <div class="card-body items-center text-center">
+                                    <div class="rating">
+                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                            checked />
+                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    </div>
+                                    <h2 class="card-title text-[#111] font-sans text-2xl font-semibold">K. Accessories
+                                    </h2>
+                                    <!-- <button class="text-[#11111180] bg-gray-400 px-3 py-2 rounded-xl font-sans text-xl font-bold"><span
+                                            id="calculation">0</span>.00 TK</button> -->
+                                    <p><input id="Parallelogram-base" type="text"
+                                            class="border text-xl bg-gray-200 w-20 px-2" placeholder="price"><span
+                                            class="ml-2">tk</span></p>
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+
+                    <div class="w-[342px] h-[148px] rounded-lg bg-[#FFF] p-5">
+                        <h4 class="w-[294px] h-[56px] rounded-lg text-[#111] font-sans text-2xl font-medium">Have
+                            coupon?
+                        </h4>
+                        <!-- <input class=" border-gray-500 bg-[#FFF] rounded-lg" type="text" placeholder="Coupon code"> -->
+                        <div class="flex justify-center rounded-xl items-center w-[294px] h-[56px]">
+                            <input type="text" placeholder="Coupon code"
+                                class="input text-gray-400 input-bordered  max-w-xs" disabled />
+                            <button class="w-[100px] h-[56px]  bg-[#E527B2] text-[#FFF] text-center font-sans text-sm"
+                                disabled>Apply</button>
+
+                        </div>
+                    </div>
+                    <div class="text-[#111] font-sans text-2xl font-medium leading-10">
+                        <div id="calculation-entry">
+
+                        </div>
+                        <h4>Total price:<span id="first">0</span>.00 TK</h4>
+                        <h4> Discount :<span>0</span>.00 TK</h4>
+                        <h4>Total: <span>0</span>.00 TK</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="pt-32">
+            <div class="w-[342px] h-[148px] rounded-lg bg-[#FFF] ">
+                <h4 class="w-[294px] h-[56px] rounded-lg text-[#111] font-sans text-2xl font-medium">Have
+                    coupon?
+                </h4>
+                <div class="flex justify-center rounded-xl items-center w-[294px] h-[56px]">
+                    <input type="text" placeholder="Coupon code" class="input text-gray-400 input-bordered  max-w-xs"
+                        disabled />
+                    <button class="w-[100px] h-[56px]  bg-[#E527B2] text-[#FFF] text-center font-sans text-sm"
+                        disabled>Apply</button>
+
+                </div>
+            </div>
+            <div class="text-[#111] font-sans text-2xl font-medium leading-10">
+                <div id="calculation-entry">
+
+                </div>
+                <h4>Total price:<span id="first">0</span>.00 TK</h4>
+                <h4> Discount :<span>0</span>.00 TK</h4>
+                <h4>Total: <span>0</span>.00 TK</h4>
+                
+                <button id="baker"
+                    class="bg-[#E527B2] w-full h-14 rounded-lg text-[#FFF] text-center font-sans text-2xl font-semibold">Make
+                    Purchase</button>
+            </div>
+        </div>
+      <!-- The button to open modal -->
+<label for="my_modal_6" class="btn">open modal</label>
+
+<!-- Put this part before </body> tag -->
+<input type="checkbox" id="my_modal_6" class="modal-toggle" />
+<div class="modal">
+  <div class="modal-box">
+    <h3 class="font-bold text-lg">Hello!</h3>
+    <p class="py-4">This modal works with a hidden checkbox!</p>
+    <div class="modal-action">
+      <label for="my_modal_6" class="btn">Close!</label>
+    </div>
+  </div>
+</div>
+   
+
+
+
+    </main>
+    <script src="style.js"></script>
+</body>
+
+</html>

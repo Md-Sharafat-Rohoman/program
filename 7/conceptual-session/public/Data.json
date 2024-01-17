@@ -1,0 +1,75 @@
+[
+    {
+      "ID": 1001,
+      "Name": "Emily Johnson",
+      "Age": 32,
+      "Role": "Sales Manager",
+      "Image": "https://i.ibb.co/84Zfw2n/1.jpg",
+      "Salary": 60000
+    },
+    {
+      "ID": 2002,
+      "Name": "James Smith",
+      "Age": 28,
+      "Role": "Software Engineer",
+      "Image": "https://i.ibb.co/84Zfw2n/1.jpg",
+      "Salary": 80000
+    },
+    {
+      "ID": 3003,
+      "Name": "Sarah Davis",
+      "Age": 45,
+      "Role": "Marketing Specialist",
+      "Image": "https://i.ibb.co/84Zfw2n/1.jpg",
+      "Salary": 55000
+    },
+    {
+      "ID": 4004,
+      "Name": "Michael Brown",
+      "Age": 36,
+      "Role": "Financial Analyst",
+      "Image": "https://i.ibb.co/84Zfw2n/1.jpg",
+      "Salary": 70000
+    },
+    {
+      "ID": 5005,
+      "Name": "Jessica Wilson",
+      "Age": 29,
+      "Role": "Human Resources Manager",
+      "Image": "https://i.ibb.co/84Zfw2n/1.jpg",
+      "Salary": 62000
+    },
+    {
+      "ID": 6006,
+      "Name": "David Lee",
+      "Age": 40,
+      "Role": "Project Manager",
+      "Image": "https://i.ibb.co/84Zfw2n/1.jpg",
+      "Salary": 75000
+    },
+    {
+      "ID": 7007,
+      "Name": "Olivia Martinez",
+      "Age": 27,
+      "Role": "Graphic Designer",
+      "Image":"https://i.ibb.co/84Zfw2n/1.jpg",
+      "Salary": 52000
+    },
+    {
+      "ID": 8008,
+      "Name": "Ethan Taylor",
+      "Age": 33,
+      "Role": "Sales Associate",
+      "Image":"https://i.ibb.co/84Zfw2n/1.jpg",
+      "Salary": 45000
+    },
+    {
+      "ID": 9009,
+      "Name": "Sophia Clark",
+      "Age": 31,
+      "Role": "Customer Support Representative",
+      "Image": "https://i.ibb.co/84Zfw2n/1.jpg",
+      "Salary": 48000
+    }
+  ]
+  

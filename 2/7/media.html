@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media</title>
+    <style>
+
+        .container{
+            display: grid;
+            grid-template-columns:repeat(4,1fr);
+            gap: 20px;
+        }
+        .food{
+            border: 2px solid green;
+            padding: 20px;
+            border-radius: 10px;
+
+        }
+        .food img{
+            width: 100%;
+        }
+        @media screen {
+            
+        }(min-width:615px) {
+            .container{
+                grid-template-columns:1fr;
+
+
+            }
+            
+            .food{
+                background-color: red;
+            }
+            
+        }
+        @media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+    .food{
+                background-color: green;
+            }
+}
+
+@media only screen and (min-width:601px) and (max-width:992px) {
+    .container{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .food{
+        background-color: blueviolet;
+    }
+    
+}
+
+    </style>
+</head>
+<body>
+    <!-- .container>.food*12>img[src="images/sara"]+h3{foof item-$}+p{price: \$$00}+p>lorem -->
+    <div class="container">
+        <div class="food">
+            <img src="images/sara.jpg" alt="">
+            <h3>foof item-1</h3>
+            <p>price: $100</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima vel obcaecati quas, iste repellat architecto error deserunt quibusdam. Voluptatum, maxime!</p>
+        </div>
+        <div class="food">
+            <img src="images/sara.jpg" alt="">
+            <h3>foof item-2</h3>
+            <p>price: $200</p>
+            <p>Ullam velit molestias maxime mollitia nulla, aliquid quia alias explicabo dolore facere laudantium reiciendis totam voluptatem numquam nostrum nesciunt laborum.</p>
+        </div>
+        <div class="food">
+            <img src="images/sara.jpg" alt="">
+            <h3>foof item-3</h3>
+            <p>price: $300</p>
+            <p>Tempora dolores et reprehenderit repellat officia ducimus, saepe ipsam nostrum! Repellendus, dolor nihil? Impedit velit eos iste amet ipsa consequuntur?</p>
+        </div>
+        <div class="food">
+            <img src="images/sara.jpg" alt="">
+            <h3>foof item-4</h3>
+            <p>price: $400</p>
+            <p>Possimus ad eum fugiat adipisci odit autem blanditiis voluptatem incidunt ex quasi voluptate, laudantium quibusdam! Excepturi assumenda illum vero repellat.</p>
+        </div>
+        <div class="food">
+            <img src="images/sara.jpg" alt="">
+            <h3>foof item-5</h3>
+            <p>price: $500</p>
+            <p>Non accusantium quidem earum dicta! Inventore, suscipit. Porro pariatur sed quod iste reiciendis corrupti explicabo ex vitae! Id, amet possimus?</p>
+        </div>
+        <div class="food">
+            <img src="images/sara.jpg" alt="">
+            <h3>foof item-6</h3>
+            <p>price: $600</p>
+            <p>Explicabo dolorum, tenetur doloribus ducimus illo sit laudantium. Dolor voluptas ullam quo dolorem eaque perspiciatis itaque voluptates quae ab praesentium.</p>
+        </div>
+        <div class="food">
+            <img src="images/sara.jpg" alt="">
+            <h3>foof item-7</h3>
+            <p>price: $700</p>
+            <p>Explicabo sequi, sed necessitatibus quia cupiditate at recusandae veritatis, harum fugiat illum tempore cum voluptatem, adipisci iure. Minus, totam aut.</p>
+        </div>
+        <div class="food">
+            <img src="images/sara.jpg" alt="">
+            <h3>foof item-8</h3>
+            <p>price: $800</p>
+            <p>Maxime minus ad vel ipsa odit nobis quis adipisci tempore eligendi alias et consectetur, quo, numquam blanditiis saepe ducimus mollitia.</p>
+        </div>
+        <div class="food">
+            <img src="images/sara.jpg" alt="">
+            <h3>foof item-9</h3>
+            <p>price: $900</p>
+            <p>Quaerat animi repellendus vero! Beatae facilis aspernatur expedita ullam sed cum magni sequi porro nobis odit, consequuntur debitis corrupti perferendis.</p>
+        </div>
+        <div class="food">
+            <img src="images/sara.jpg" alt="">
+            <h3>foof item-10</h3>
+            <p>price: $1000</p>
+            <p>Natus omnis quasi cum tempora et odio placeat similique quam voluptates, ad sapiente! Accusamus voluptas saepe porro minus voluptates illum.</p>
+        </div>
+        <div class="food">
+            <img src="images/sara.jpg" alt="">
+            <h3>foof item-11</h3>
+            <p>price: $1100</p>
+            <p>Repellendus facilis blanditiis maxime asperiores necessitatibus pariatur. Aspernatur dolores eligendi quo dicta doloremque ullam saepe consectetur, atque ut beatae nisi.</p>
+        </div>
+        <div class="food">
+            <img src="images/sara.jpg" alt="">
+            <h3>foof item-12</h3>
+            <p>price: $1200</p>
+            <p>Nobis sint possimus incidunt ad facere, vero non vitae quo, ex laudantium voluptatem iste quasi suscipit praesentium aliquam dolorum necessitatibus.</p>
+        </div>
+    </div>
+</body>
+</html>

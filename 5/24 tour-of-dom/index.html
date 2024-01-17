@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+    <style>
+        li {
+            color: green;
+        }
+
+        #fruits-title {
+            color: black;
+        }
+
+        .important {
+            color: blueviolet;
+        }
+
+        .fruits-container li {
+            color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>welcome to dom</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla maiores dignissimos obcaecati, unde, est
+            repellendus assumenda, voluptatem rem deserunt esse facere modi quas in officiis ullam possimus. Et,
+            corrupti perspiciatis.</p>
+    </header>
+    <main id="main-container">
+        <section>
+            <h1>this is heading</h1>
+            <ul>
+                <li>sharafat</li>
+                <li>rohoman</li>
+                <li>zafourllah</li>
+                <li>al-amin</li>
+            </ul>
+        </section>
+        <section class="fruits-container">
+            <h1 id="fruits-title">ther is no resorce</h1>
+            <ul>
+                <li>tamim</li>
+                <li>iqbal</li>
+                <li>yeasin</li>
+            </ul>
+        </section>
+        <section id="places-container" class="sarafat" >
+            <h1>there are no variable</h1>
+            <ul id="places-list">
+                <li class="important">sondarban</li>
+                <li class="important">banderban</li>
+                <li class="important">kataban</li>
+                <li>salban</li>
+            </ul>
+        </section>
+
+    </main>
+    <script src="js/about.js"></script>
+    <script src="js/styles.js"></script>
+    <script src="js/append.js"></script>
+    <script>
+        const liCollection = document.getElementsByTagName('li');
+        // console.log(liCollection);
+        // for(const li of liCollection){
+        //     console.log(li.innerText);
+        // }
+        const headingone = document.getElementsByTagName('h1');
+        for (const h1 of headingone) {
+            // console.log(h1.innerText);
+        }
+
+        const places = document.getElementsByClassName('important');
+        // console.log(places);
+        for (const important of places) {
+            // console.log(important.innerText);
+        }
+        const fruitstitle = document.getElementById('fruits-title');
+        // fruitstitle.innerText= 'fruits changed by js'
+
+
+        const selector = document.querySelectorAll('#fruits-title');
+        for (const fruitsTitle of selector) {
+            // console.log(fruitsTitle);
+        }
+
+        // const someLi = document.querySelectorAll('.fruits-container li');
+        // // console.log(someLi);
+        // for (const li of someLi) {
+        //     console.log(li.innerText);
+        // }
+
+        const someLie = document.querySelectorAll('.fruits-container li');
+        for(const li of someLie){
+            // console.log(li);
+        }
+
+        const someLiee = document.querySelector('.fruits-container li');
+        // console.log(someLiee);
+    
+    </script>
+</body>
+
+</html>

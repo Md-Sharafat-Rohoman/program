@@ -1,0 +1,18 @@
+import { useEffect, useState } from "react"
+
+export default function(){
+    const [user,setUsers]=useState([]);
+    useEffect(()=>{
+        fetch("https://jsonplaceholder.typicode.com/users")
+        .then(res => res.json())
+        .then(data =>setUsers(data));
+    },[])
+    return (
+        <div>
+            <h2>Users : {user.length}</h2>
+            {
+                user.map(friend =><friend></friend>)
+            }
+        </div>
+    )
+}

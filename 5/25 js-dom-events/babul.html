@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Even babul</title>
+    <style>
+        #items-2{
+            border: 2px solid rebeccapurple;
+        }
+        ul,body,section{
+            border: 2px solid tomato;
+        }
+        body{
+            border: 2px solid green;
+        }
+      
+        section{
+            border: 2px solid blue;
+        }
+    </style>
+</head>
+<body id="body">
+    <h1>exploring even babul</h1>
+    <section id='list-container'>
+        <ul id="list-ul">
+            <li id="items-1">Lorem, ipsum.</li>
+            <li id="items-2">Lorem, ipsum.</li>
+            <li id="items-3">Lorem, ipsum.</li>
+            <li id="items-4">Lorem, ipsum.</li>
+            <li id="items-5">Lorem, ipsum.</li>
+            <li id="items-6">Lorem , ipsum.</li>
+        </ul>
+    </section>
+    <script>
+        document.getElementById('items-2').addEventListener('click',function(event){
+            console.log('items-2 one clicked');
+            event.stopImmediatePropagation();
+        })
+        document.getElementById('items-2').addEventListener('click',function(event){
+            console.log('items-2 two clicked');
+            // event.stopPropagation();
+        })
+        document.getElementById('items-2').addEventListener('click',function(event){
+            console.log('items-2 three clicked');
+            // event.stopPropagation();
+        })
+        document.getElementById('items-2').addEventListener('click',function(event){
+            console.log('items-2 four clicked');
+           
+        })
+        document.getElementById('list-ul').addEventListener('click',function(){
+            console.log('ul clicked')
+        })
+        document.getElementById('list-container').addEventListener('click',function(){
+            console.log('list-container clicked')
+        })
+        document.getElementById('body').addEventListener('click',function(){
+            console.log('body-container clicked')
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "image": "smartwatch1.jpg",
+    "phone-name": "Apple iPhone 13 Pro",
+    "brand-name": "Apple",
+    "price": 399.99
+  },
+  {
+    "id": 2,
+    "image": "smartwatch2.jpg",
+    "phone-name": "Samsung Galaxy S21",
+    "brand-name": "Samsung",
+    "price": 299.95
+  },
+  {
+    "id": 3,
+    "image": "smartwatch3.jpg",
+    "phone-name": "Google Pixel 6",
+    "brand-name": "Google",
+    "price": 229.99
+  },
+  {
+    "id": 4,
+    "image": "smartwatch4.jpg",
+    "phone-name": "OnePlus 9 Pro",
+    "brand-name": "OnePlus",
+    "price": 549.99
+  },
+  {
+    "id": 5,
+    "image": "smartwatch5.jpg",
+    "phone-name": "Xiaomi Mi 11",
+    "brand-name": "Xiaomi",
+    "price": 179.99
+  },
+  {
+    "id": 6,
+    "image": "smartwatch6.jpg",
+    "phone-name": "Sony Xperia 1 III",
+    "brand-name": "Sony",
+    "price": 899.99
+  },
+  {
+    "id": 7,
+    "image": "smartwatch7.jpg",
+    "phone-name": "Huawei P40 Pro",
+    "brand-name": "Huawei",
+    "price": 499.00
+  },
+  {
+    "id": 8,
+    "image": "smartwatch8.jpg",
+    "phone-name": "LG G8 ThinQ",
+    "brand-name": "LG",
+    "price": 349.99
+  },
+  {
+    "id": 9,
+    "image": "smartwatch9.jpg",
+    "phone-name": "Motorola Edge+",
+    "brand-name": "Motorola",
+    "price": 479.99
+  },
+  {
+    "id": 10,
+    "image": "smartwatch10.jpg",
+    "phone-name": "Nokia 8.3 5G",
+    "brand-name": "Nokia",
+    "price": 329.00
+  },
+  {
+    "id": 11,
+    "image": "smartwatch11.jpg",
+    "phone-name": "Asus ROG Phone 5",
+    "brand-name": "Asus",
+    "price": 699.99
+  },
+  {
+    "id": 12,
+    "image": "smartwatch12.jpg",
+    "phone-name": "Realme GT",
+    "brand-name": "Realme",
+    "price": 329.00
+  }
+]

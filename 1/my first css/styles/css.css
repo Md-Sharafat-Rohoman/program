@@ -1,0 +1,11 @@
+p{
+  background-color: red;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+}
+p{
+  color: green;
+}
+.cow{
+  border: 20px blue solid;
+}

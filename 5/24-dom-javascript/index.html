@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tour of Dom</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .fruits-container li{
+            color: tomato;
+        }
+        #fruits-tittle{
+            color: black;
+        }
+        #places-tittle{
+            color: green;
+        }
+        .important-places{
+            color:blueviolet;
+        }
+       
+    </style>
+</head>
+<body>
+    <header>
+        <h1>welcome to my sharafat</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ut deserunt velit quis laboriosam beatae pariatur aliquam dolorum itaque omnis. Libero aspernatur natus eligendi. Aliquam cupiditate ab quibusdam accusantium maiores neque minus quis ipsa hic nulla fugit iste, alias assumenda inventore placeat ullam esse accusamus id expedita. Expedita, a voluptate!</p>
+    </header>
+    <main id='main-container'>
+    <section>
+        <h1>my awesome</h1>
+        <ul class="fruits-container"> 
+            <li>sharafat</li>
+            <li>rohoman</li>
+            <li>zafourllah</li>
+            <li>dom da ra shara</li>
+        </ul>
+    </section>
+    <section>
+        <h1 id="fruits-tittle">fruits like</h1>
+        <ul id='places-list'>
+            <li>apple</li>
+            <li>banana</li>
+            <li id="sara">carrot</li>
+        </ul>
+    </section>
+    <section id="places-container" class="large-text">
+        <h1  class="places-tittle">pleace i like to visit</h1>
+        <li class="important-places">soondarban</li>
+        <li class="important-places">bandarban</li>
+        <li class="important-places">kataban</li>
+        <li>shalbon</li>
+    </section>
+    </main>
+    <script src="dom.js"></script>
+    <script src="append.js"></script>
+    <script>
+        // 1------
+        const licollection = document.getElementsByTagName('li');
+        // console.log(licollection);
+        for(const li of licollection){
+            // console.log(li.innerText);
+        }
+        const allheadings = document.getElementsByTagName('h1')
+        for(const h1 of allheadings){
+            // console.log(h1.innerText);
+        }
+
+        // 2-------
+        const fruitsTittle= document.getElementById('fruits-tittle');
+        fruitsTittle.innerText= 'fruits changed by js'
+
+        // 3-------
+        const pleases = document.getElementsByClassName('important-places');
+        // console.log(pleases);
+        for(const place of pleases){
+            console.log(place.innerText);
+        }
+        const zafourllah = document.getElementById('sara')
+        sara.innerText = 'rohoman-zafourllah'
+
+        // 4---------
+        const zafour = document.querySelector('.fruits-container li')
+        console.log(zafour);
+        
+        // 5--------
+        const shara = document.querySelectorAll('.fruits-container li')
+        console.log(shara);
+        for(const li of shara){
+            // console.log(li.innerText);
+        }
+    </script>
+</body>
+</html>

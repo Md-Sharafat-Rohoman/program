@@ -1,0 +1,490 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,500;0,700;0,800;1,400&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+/* header starting start */
+
+
+nav{
+    background-color: #9376e0;
+}
+
+.nav-container{
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    max-width: 1500px;
+    margin: 0 auto;
+
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding: 0px 0px 0px 20px;
+}
+.logo-container img{
+    width: 50px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.logo-container p{
+    font-size: 30px;
+}
+.g{
+    color: #e893cf;
+}
+.nav-item-container{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-item-container a{
+    text-decoration: none;
+}
+.button{
+    background-color: #e893cf;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.nav-item-container img{
+    width: 20px;
+    height: 20px;
+}
+
+
+/* header end */
+
+
+/* 1st section start */
+.main-section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.main-section > div {
+    flex: 1;
+}
+
+
+
+.background{
+        /* background-color: red; */
+        background-image: url('images/Group\ 14.png');
+        height: 500px;
+        width: 100%;
+        background-blend-mode: overlay;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left;
+        /* margin: auto;
+        margin-top: 100px; */
+        border-radius: 5px;
+        text-align: center;
+        align-items: center;
+        font-size: 35px;
+        gap: 10px;
+       
+
+}
+.goat{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.background li{
+    font-size: 10px;
+    color: grey;
+}
+.new-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    gap: 10px;
+}
+.button-1{
+    border-radius: 20px;
+    border: none;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    color: wheat;
+    padding: 10px 20px;
+}
+.button-2{
+    border-radius: 20px;
+    border: none;
+    background: #4EC5F7;
+    color: wheat;
+    padding:10px 20px ;
+}
+.image{
+    height: 500px;
+    width: 50%;
+    margin: 0 auto;
+}
+.main-section img{
+    width: 80%;
+    height: 100%;
+}
+
+/* 2nd section start */
+
+.section-2{
+    display: flex;
+    margin: 100px;
+}
+.know-more{
+    display: inline-flex;
+    padding: 11px 20px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    border: none;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+
+
+.second-img img{
+    height: 400px;
+    width: 70%;
+}
+.second-img{
+    width: 100%;
+    align-items: center;
+}
+.main-moto{
+    width: 40%;
+    height: 350px;
+    text-align: right;
+}
+
+.moto-patlo{
+    font-weight: 700;
+    font-size: 35px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.unleash{
+    width: 520px;
+    color: #534C64;
+    font-size: 14px;
+    font-weight: 700;
+}
+/* 2n section end */
+
+
+/* 3rd section start */
+    .online-game{
+    color: #0B0223;
+    text-align: center;
+    font-weight: 700;
+    font-size:45px;
+    margin-bottom: 10px;
+}
+.funny-videos{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.collection{
+    color: #534C64;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+}
+/* 3rd section end */
+/* 4th section start */
+.image-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+
+.image1{
+    width: 18%;
+    height: 22%;
+    border-radius: 16px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.image1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.no-download{
+    color: #534C64;
+    font-size: 13px;
+    font-weight: 500;
+
+}
+.image1 > .different-image{
+    width: 20px;
+    height: 20px;
+    margin-top: -200px;
+
+}
+/* .image1 .different-image:hover{
+    position: relative;
+    margin-top: -500px;
+    margin-right:-200px;
+} */
+/* .different-image :hover{
+    position: absolute;
+    margin-top: -200px;
+    margin-right: -100px;
+} */
+
+/* 4th section end*/
+
+
+/* 5th section start */
+.short-img{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin: 100px 200px;
+}
+.rectangle-67{
+    width: 60%;
+    height: 400px;
+}
+
+.rectangle-67 .re-67{
+    width: 70%;
+    height: 250px;
+}
+.re-67{
+    width: 100%;
+    height: 100%;
+}
+.rectangle-67 .second-image{
+    width: 100px;
+    height: 130px;
+}
+.second-image{
+    margin-left:-60px;
+    margin-bottom: -50px;
+}
+/* .short-img */
+ .any-divice{
+    width: 70%;
+    height: 200px;
+    text-align: left;
+}
+.online-anywhere{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.games-online{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* 5th section end */
+
+/* 6th section start */
+.six-section{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FF42A5;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+
+.careers{
+    width: 60%;
+    color: wheat;
+    background-color: #FF42A5;
+    text-align: left;
+    padding: 50px;
+}
+.job{
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px; /* 125% */
+}
+.mulimed{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    text-align: left;
+}
+.right{
+    text-align: right;
+}
+/* .job,.left,.right{
+    padding-top: 50px;
+} */
+.see-all{
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    border-radius: 48px;
+    background: #FFF;
+    color: #FF42A5;
+    font-size: 25px;
+    border:none;
+
+
+}
+.picture{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* 6th section end */
+
+/* seventh section start */
+.second-last{
+    width: 250px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 0px 3px;
+}
+.second-last:hover{
+    border: 2px solid green;
+    padding: 0px 3px;
+    border-radius: 46px;
+}
+.action-games{
+    color: #0B0223;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.protection{
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    margin: 0px auto;
+    margin-bottom: 100px;
+
+}
+
+
+/* seventh section end */
+
+/* last footer start */
+.last-header-img{
+   height: 30px;
+   width: 50px;
+}
+.last-gamer{
+    font-size: 45px;
+    font-weight: 700;
+    color: wheat;
+
+}
+.pain{
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.anaflex{
+    display: flex;
+    justify-content: center;
+}
+.last-div{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    padding-top: 100px;
+}
+.anchore{
+    text-align: center;
+    color:wheat;
+}
+.anchore1{
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.anchore a{
+    text-decoration: none;
+    margin-left: 50px;
+
+}
+.last-footer-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+    gap: 20px;
+}
+.last-anchore-1{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+
+.last-footer-section{
+    background: #0B0223;
+}
+
+.last-anchore a{
+    text-decoration: none;
+    margin-left: 20px;
+
+}
+/* .last-anchore {
+    margin: 20px auto;
+} */
+
+.last-footer-section{
+    text-align: center;
+}
+
+.paragraph-last{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 100px;
+
+}
+
+
+
+
+/* last footer end */
+

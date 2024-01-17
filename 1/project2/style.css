@@ -1,0 +1,197 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav-container{
+    display: flex;
+    padding: 10px;
+    background-color: gray;
+    justify-content: space-around;
+    align-items: center;
+
+ 
+}
+.manus{
+
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    font-style: italic;
+    font-size: 30px;
+}
+.banner-container{
+height: 100vh;
+background-image: url("./image/background.jpg"),
+linear-gradient(rgba(0, 0, 0, 7),rgba(0, 0, 0, 0));
+background-blend-mode: overlay;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center;
+display: flex;
+align-items: center;
+
+}
+
+.primary{
+    color: red;
+}
+.title{
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+}
+.description{
+    color: white;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+}
+.btn{
+    padding: 10px;
+    border: none;
+}
+.bg-color{
+    background-color: red;
+    color: white;
+}
+
+
+.black{
+    height: 100vh;
+    background-color:black;
+    color: white;
+    display: flex;
+
+    align-items: center;
+    padding: 20px;
+}
+
+
+.icon{
+
+    width: 100px;
+    margin-bottom: 20px;
+}
+.box{
+    padding: 50px;
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px gray;
+
+}
+.para{
+    width: 50%;
+}
+.first-two-box{
+    display: flex;
+    gap: 5px;
+}
+.second-two-box{
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+}
+.author-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+   
+}
+.author-container{
+display: flex;
+align-items: center;
+gap: 20px;
+border-right: 2px solid red;
+padding-right: 20px;
+margin-top: 20px;
+}
+.profile-container{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.button{
+    background-color: red;
+    color: white;
+    font-size:20px;
+    border: none;
+    padding: 5px;
+}
+.phone-call{
+    width: 80px; 
+}
+.back{
+width: 800px; 
+height: 100px;
+display: flex;
+text-align: center;
+justify-content: space-between;
+margin: auto;
+background-color: red;
+align-items: center;
+padding: 50px;
+border-radius: 10px;
+margin-top: -40px;
+
+
+}
+.call{
+    display: flex;
+    align-items: center;
+}
+.auto{
+    display: flex;
+}
+.sara{
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+}
+.color{
+    color: red;
+    
+}
+.lorem{
+    font-size: 50px;
+    color: black;
+}
+.dolor{
+    text-align: center;
+    margin: 50px;
+}
+
+.card{
+    width: 400px;
+    height: 380px;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 5px;
+}
+.imag{
+    width: 100%;
+  
+
+} 
+
+.cards{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+.name{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.hello{
+    width: 80%;
+    justify-content: center;
+    background-color: rgb(122, 104, 104);
+    margin: auto;
+}

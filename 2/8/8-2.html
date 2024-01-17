@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>picture college</title>
+    <style>
+        img{
+            width: 100%;
+            height: 100%;
+        }
+        .row{
+            height: 300px;
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .row>div{
+            flex: 1;
+        }
+        .verticol-collage img{
+            height: calc(( 100% - 5px)/2);
+        }
+        .square-collage{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 10px;
+        }
+        /* responsib midia quri */
+        @media screen and (max-width:576px) {
+            .row{
+                flex-direction: column;
+                height: auto;
+            }
+            .square-collage{
+                grid-template-columns: 1fr;
+            } 
+        }
+        /* mediam divice */
+        @media screen and (min-width:576px) and (max-width:990px) {
+            .row{
+                flex-direction: column;
+                height: auto;
+            }
+            
+        }     
+    </style>
+</head>
+<body>
+    <header>
+        <h1>my picture collage</h1>
+    </header>
+    <main>
+        <section>
+            <div class="row">
+                <img src="images/A.jpg" alt="">
+            </div>
+            <div class="row">
+                <div>
+                    <img src="images/B.jpg" alt="">
+                </div>
+                <div>
+                    <img src="images/C.jpg" alt="">
+                </div>
+                <div class="verticol-collage">
+                    <img src="images/D.jpg" alt="">
+                    <img src="images/E.jpg" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <img src="images/F.jpg" alt="">
+                </div>
+                <div class="square-collage">
+                    <img src="images/G.jpg" alt="">
+                    <img src="images/G.jpg" alt="">
+                    <img src="images/G.jpg" alt="">
+                    <img src="images/G.jpg" alt="">
+                </div>
+                <div>
+                    <img src="images/H.jpg" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

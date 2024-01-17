@@ -1,0 +1,29 @@
+nav{
+display: flex;
+}
+.shara{
+    margin-left: 50px;
+}
+.fat{
+    color: orange;
+}
+nav>ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+} 
+nav a{
+    text-decoration: none;
+}
+.roho{
+    background-color: orange;
+    border-radius: 5px;
+}
+.hi{
+    margin-left: 50px;
+}
+.ma{
+    margin-left: 30px;
+}

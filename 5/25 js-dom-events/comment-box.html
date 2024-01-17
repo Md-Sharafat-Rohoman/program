@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>add comment box</title>
+</head>
+<body>
+    <h1>add comment box area</h1>
+    <div id="comment-container">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia facere, officiis sint nesciunt nostrum tempore quis mollitia fugit debitis, pariatur vel deserunt facilis voluptate aliquid eaque fugiat ullam blanditiis ipsam quidem ab omnis sunt. Repellendus atque, architecto incidunt, rem eum quisquam ullam, maxime consectetur distinctio debitis necessitatibus recusandae autem alias!</p>
+        <p>Cum sed quidem tenetur vitae, dicta est facere, nisi recusandae, ad voluptate rerum labore nemo corrupti maiores ipsam quod? Fugiat quibusdam, assumenda explicabo dolore quam animi deleniti tempore consequatur esse unde ad voluptatem natus nam ab cum aperiam nisi, mollitia suscipit. Inventore porro alias voluptates magnam maiores odio ad nisi.</p>
+        <p>Vitae eos tempora at minus ipsa similique adipisci delectus esse in! Tempore, delectus incidunt tenetur ipsa excepturi porro provident similique saepe placeat perferendis, libero et est at debitis assumenda magni repudiandae inventore cumque distinctio sequi commodi consequuntur deleniti illum hic? Distinctio saepe corrupti eveniet odio alias voluptatem, quae explicabo amet?</p>
+    </div>
+    <textarea name="" id="newcomment" cols="300" rows="10"></textarea>
+    <br>
+    <button id="btn-post">post</button>
+
+    <script>
+        document.getElementById('btn-post').addEventListener('click',function(){
+            // console.log('sharafat rohoaman')
+            const sara  = document.getElementById('newcomment');
+            console.log(sara.value);
+
+            const commentContainer = document.getElementById("comment-container");
+            const p = document.createElement('p');
+            p.innerText = sara.value;
+            commentContainer.appendChild(p);
+            sara.value = '';
+
+
+        })
+    </script>
+</body>
+</html>

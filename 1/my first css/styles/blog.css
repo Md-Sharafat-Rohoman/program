@@ -1,0 +1,31 @@
+h2{
+  font-size: 50px;
+  text-decoration: overline;
+  font-family:'Courier New', Courier, monospace;
+}
+.nodi{
+  border: 2px solid red;
+
+margin: 50px;
+padding: 10px;
+display: inline-block;
+
+}
+
+
+.blog{
+  margin: 20px;
+  border: 15px solid green;
+  box-shadow: 20px 20px 20px red;
+}
+
+.header{
+  height: 400px;
+background-image: url("../styles/images.jfif");
+/* background-repeat: no-repeat; */
+/* background-repeat: repeat-x; */
+/* background-size: cover; */
+background-size: 500px;
+
+
+}
